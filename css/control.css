@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #71a09e; /* Cambio de color de fondo */
+    margin: 0;
+    color: rgb(240, 233, 234);
+    padding: 20px;
+    padding: 0; /* Eliminar padding */
+}
+
+header {
+    background-color: #2c3e50; /* Azul oscuro */
+    padding: 20px 0; /* Añadir padding para espacio interno */
+    text-align: center;
+    width: 100%; /* Abarcar todo el ancho de la pantalla */
+}
+
+nav {
+    margin-top: 10px; /* Agregar margen al navbar */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Centrar los elementos del navbar */
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff; /* Texto blanco */
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+nav ul li a:hover {
+    background-color: #34495e; /* Azul más oscuro al pasar el cursor */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+article {
+    background-color: #87CEEB; /* Azul cielo */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out; /* Agregamos la transición para el cambio de color */
+}
+
+article:hover {
+    transform: translateY(-5px); /* Levantar ligeramente al pasar el cursor */
+    background-color: #6CA6CD; /* Cambiar el color al azul cielo más oscuro */
+}
+
+h2 {
+    color: #3c40c6; /* Azul oscuro */
+}
+
+p {
+    color: #e74c3c; /* Rojo */
+}
